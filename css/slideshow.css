@@ -1,0 +1,32 @@
+.slideshow {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    border: 3px solid blue;
+    padding: 1em;
+}
+h1 {
+    color: mediumvioletred;
+    margin: 0;
+    padding: 0 0 1em 0;
+  text-align: center;
+	font-size: 180%;
+}
+h2 {
+	font-size: 140%;
+	margin-top: .5em;
+    text-align: center;
+}
+.space{
+    margin: 0;
+	padding-left: 10px;
+    	
+}
+ul {
+    display: none;
+}
+#adventure{font-size: 25px;
+color:chocolate;}
+

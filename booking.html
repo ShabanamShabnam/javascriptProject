@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>home</title>
+<meta charset="utf-8">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+
+	<link href="css/main.css" rel="stylesheet">
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="JS/booking.js"></script>
+	
+	<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> 
+</script>
+<![endif]-->
+
+</head>
+	<body>
+		<div id="wrapper">
+			<header><nav>
+        <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="aboutus.html">About us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="faq.html">Faq</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="booking.html">Bookings</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        </nav>
+		<img src="images/bg%20-%20Copy.png">
+		</header>
+
+        <p class="border"><img  class="style2"src="images/fantasy.jpg" alt="" id="image" width="1100px" height="500px"></p>
+				<h2 id="caption"></h2>
+		 <main>
+        <h1>Bookings</h1><img class="float" src="images/passport.jpg" width="200" height="200">
+        
+        
+        <br>
+        
+        <label>From:</label>
+        <select name="from" id="from">
+        		<option value="">--Select--</option>
+        		<option value="Bangalore">Bangalore</option>
+        		<option value="Toronto">Toronto</option>
+        		<option value="Punjab">Punjab</option>        		        		        		
+        	</select>
+        <span>*</span><br>
+        <label>To:</label>
+        <select name="to" id="to">
+        		<option value="">--Select--</option>
+        		<option value="Bangalore">Bangalore</option>
+        		<option value="Toronto">Toronto</option>
+        		<option value="Punjab">Punjab</option>        		        		        		
+        	</select>
+        <span>*</span><br>
+        <label>Date:</label>
+        <input type="date" id="date">
+        <span>*</span><br>
+        <label>Time:</label>
+        <input type="time" id="time" >
+        <span>*</span><br>
+        <label>Adults:</label>
+        	<select name="Persons" id="persons">
+        		<option value="1">1</option>
+        		<option value="2">2</option>
+        		<option value="3">3</option>
+        		<option value="4">4</option>        		        		        		
+        	</select><br>
+    
+        <label id="p1">Price:$</label>
+    <input type="text" value="" id="price" disabled><br>
+             <input type="button" value="Confirm Booking"  id="confirm"><br>
+    <input type="button" value="Submit" name="calculate" id="sub"><br>
+	        		        		
+       <br><br><br><br><br>  
+    </main>
+	<footer>Copyright &copy; ASL The Trip Advisors<br>
+	<a href="https://www.facebook.com"><img src="images/facebook.png"></a>
+		<a href="https://www.gmail.com"><img src="images/gmail.png"></a>
+		<a href="https://twitter.com"><img src="images/twitter.png"></a>
+			</footer>
+		</div>
+	</body>
+</html>
